@@ -21,6 +21,7 @@ body{
     align-items: center;
     justify-content: space-evenly;
     min-height: 100vh;
+    width: 100vw;
     gap: 0rem;
     flex-direction: column;
     overflow-x: hidden;
@@ -364,6 +365,15 @@ main section .part-three .figures .row div {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    }
+
+main section .part-three .figures canvas{
+    width: 75px;
+    height: 75px;
+    border: 2px #2D54DD solid ;
+    border-radius: 20px;
+    box-shadow: 7px 7px 40px 7px rgba(0, 0, 0, 0.08);
+
 }
 main section .part-three .figures .row div canvas{
     width: 450px;
