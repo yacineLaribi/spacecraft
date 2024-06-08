@@ -182,7 +182,9 @@ nav{
     width: 80%;
     border-radius: 20px;
 }
-
+.active{
+    font-weight: 600 !important;
+}
 nav ul {
     display: flex;
     align-items: center;
