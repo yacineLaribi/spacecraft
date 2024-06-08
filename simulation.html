@@ -10,7 +10,7 @@
     <nav>
         <img src="assets/Scholarcap.png" alt="logo" height="150" class="logo">
         <ul>
-            <li><a href="#">Dashboard</a></li>
+            <li><a href="index.html">Dashboard</a></li>
             <li><a href="#" class="active">Simulation</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Road Map Pfe</a></li>
@@ -144,15 +144,51 @@
                 <h1>Results</h1>
                 <div class="figures">
                     <div class="row">
-                        <img src="" alt="">
-                        <img src="" alt="">
+                        <div>
+                            <canvas></canvas>
+                            <p>Teta Plot</p>
+                        </div>
+                        <div>
+                            <canvas></canvas>
+                            <p>Teta Dot Plot</p>
+
+                        </div>
                     </div>
                     <div class="row">
-                        <img src="" alt="">
-                        <img src="" alt="">
+                        <div>
+                            <canvas></canvas>
+                            <p>Internal Disturbance Plot</p>
+                        </div>
+                        <div>
+                            <canvas></canvas>
+                            <p>External Disturbance Plot</p>
+
+                        </div>
                     </div>
                 </div>
             </div>
+        
+        </section>
+        <hr>
+        <section>
+            <h1>2 - Three Axis</h1>
+            <h6>Flexible Spacecraft Attitude control with different methods</h6>
+            <div class="part-one">
+                <div class="left">
+                    <h2>Problem Formulation</h2>
+                    <img src="assets/problem_formulation.png" alt="">
+                </div>
+                <div class="right" style="gap: 2rem ;">
+                    <h2>Over View</h2>
+                    <p>In this segment, we explore the basic control strategies for attitude stabilization of a flexible spacecraft using quaternion representations for accurate dynamic modeling.For this we are going to use 04 methods adding the DOBC observer to each one proportional-derivative (PD) control, Sliding mode control with 03 mode saturation, 
+                        sign function and tanh function and two different methods of the adaptative Sliding mode control. <br> <br>
+                        in this section we can do an comparative study based between 02 methods.
+                         with the ability to examine the RMS error of each method according to our thesis work.
+                    </p>
+                    <button>See More</button>
+                </div>
+            </div>
+            
         </section>
     </main>
 </body>
