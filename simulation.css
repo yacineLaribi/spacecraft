@@ -390,3 +390,11 @@ hr{
     height: 15px;
     background-color: #2D54DD;
 }
+
+.team-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+}
